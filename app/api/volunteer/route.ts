@@ -7,14 +7,14 @@ export async function POST(req: Request) {
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: process.env.EMAIL_USER,
-                pass: process.env.EMAIL_PASS
+                user: process.env.EMAIL_USER as string,
+                pass: process.env.EMAIL_PASS as string
             }
         });
 
         await transporter.sendMail({
-            from: process.env.EMAIL_USER,
-            to: process.env.EMAIL_USER,
+            from: process.env.EMAIL_USER as string,
+            to: process.env.EMAIL_USER as string,
             subject: 'New Volunteer Application - Flourish Foundation',
             text: `You have a new volunteer application:\n\nName: ${name}\nEmail: ${email}\nSkills: ${skills}`
         });
