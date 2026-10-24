@@ -106,32 +106,32 @@ export default function Home() {
   return (
     <div className="bg-[#fcfdfd] text-gray-800 font-sans antialiased overflow-x-hidden">
       {/* Navigation Bar */}
-      <header className="sticky top-0 z-50 bg-white/85 backdrop-blur-md border-b border-gray-100 transition-all duration-300">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white/85 backdrop-blur-md border-b border-gray-100 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <div className="flex items-center space-x-3 group cursor-pointer" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
-                <div className="w-10 h-10 rounded-full overflow-hidden bg-teal-600 flex items-center justify-center text-white font-bold shadow-md group-hover:scale-110 transition duration-300">
-                    <img src="/images/IMG-20261020-WA0123.jpg" alt="Flourish Foundation Logo" className="w-10 h-10 object-cover rounded-full" />
-                </div>
-                <span className="text-xl font-black text-gray-900 tracking-tight">Florish<span className="text-teal-600">.</span></span>
-            </div>
+        <div className="flex items-center space-x-3 group cursor-pointer" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+          <div className="w-10 h-10 rounded-full overflow-hidden bg-teal-600 flex items-center justify-center text-white font-bold shadow-md group-hover:scale-110 transition duration-300">
+              <img src="/images/IMG-20261020-WA0123.jpg" alt="Flourish Foundation Logo" className="w-10 h-10 object-cover rounded-full" />
+          </div>
+          <span className="text-xl font-black text-gray-900 tracking-tight">Florish<span className="text-teal-600">.</span></span>
+      </div>
 
-            <nav className="hidden lg:flex items-center space-x-8 text-sm font-semibold text-gray-600">
-                <a href="#about" className="hover:text-teal-600 transition">About</a>
-                <a href="#mission" className="hover:text-teal-600 transition">Mission</a>
-                <a href="#programs" className="hover:text-teal-600 transition">Programs</a>
-                <a href="#impact" className="hover:text-teal-600 transition">Impact</a>
-                <a href="#stories" className="hover:text-teal-600 transition">Stories</a>
-                <a href="#get-involved" className="hover:text-teal-600 transition">Get Involved</a>
-                <a href="#faq" className="hover:text-teal-600 transition">FAQ</a>
-            </nav>
+      <nav className="hidden lg:flex items-center space-x-8 text-sm font-semibold text-gray-600">
+          <a href="#about" className="hover:text-teal-600 transition">About</a>
+          <a href="#mission" className="hover:text-teal-600 transition">Mission</a>
+          <a href="#programs" className="hover:text-teal-600 transition">Programs</a>
+          <a href="#impact" className="hover:text-teal-600 transition">Impact</a>
+          <a href="#stories" className="hover:text-teal-600 transition">Stories</a>
+          <a href="#get-involved" className="hover:text-teal-600 transition">Get Involved</a>
+          <a href="#faq" className="hover:text-teal-600 transition">FAQ</a>
+      </nav>
 
-            <div className="flex items-center space-x-4">
-                <button onClick={openDonateModal} className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-2.5 rounded-full text-sm font-bold shadow-lg shadow-teal-600/30 hover:scale-105 transition duration-300">
-                    Donate Now
-                </button>
-            </div>
-        </div>
-      </header>
+      <div className="flex items-center space-x-4">
+          <button onClick={openDonateModal} className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-2.5 rounded-full text-sm font-bold shadow-lg shadow-teal-600/30 hover:scale-105 transition duration-300">
+              Donate Now
+          </button>
+      </div>
+  </div>
+</header>
 
       {/* Hero Section */}
       <section className="pt-16 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center relative">
@@ -511,8 +511,8 @@ export default function Home() {
             <div className="space-y-4">
                 <div className="flex items-center space-x-2">
                     <div className="w-10 h-10 rounded-full overflow-hidden bg-teal-600 flex items-center justify-center text-white font-bold shadow-md group-hover:scale-110 transition duration-300">
-                    <img src="images/IMG-20261020-WA0123.jpg" alt="Flourish Foundation Logo" className="w-10 h-10 object-cover rounded-full" />
-                </div>
+                        <img src="/images/IMG-20261020-WA0123.jpg" alt="Flourish Foundation Logo" className="w-10 h-10 object-cover rounded-full" />
+                    </div>
                     <span className="text-lg font-black tracking-tight">Florish</span>
                 </div>
                 <p className="text-xs text-gray-400 leading-relaxed">Empowering communities and changing lives through sustainable grassroots programs worldwide.</p>
@@ -531,13 +531,6 @@ export default function Home() {
                 <p className="text-gray-400 text-xs">29 Unity Estate, Iriebe, Port Harcourt, Rivers State</p>
                 <p className="text-gray-400 text-xs">+234 (0) 90 778 044 47</p>
                 <p className="text-gray-400 text-xs">florishfoundation01@gmail.com</p>
-            </div>
-            <div>
-                <h4 className="font-bold text-sm uppercase tracking-wider mb-4 text-teal-400">Get Involved</h4>
-                <ul className="space-y-2 text-xs text-gray-400">
-                    <li><button onClick={openVolunteerModal} className="hover:text-white transition">Volunteer</button></li>
-                    <li><button onClick={openDonateModal} className="hover:text-white transition">Donate Now</button></li>
-                </ul>
             </div>
             <div>
                 <h4 className="font-bold text-sm uppercase tracking-wider mb-4 text-teal-400">Admin Tracking</h4>
