@@ -108,44 +108,44 @@ export default function Home() {
       {/* Navigation Bar */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/85 backdrop-blur-md border-b border-gray-100 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        <div className="flex items-center space-x-3 group cursor-pointer" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
-          <div className="w-10 h-10 rounded-full overflow-hidden bg-teal-600 flex items-center justify-center text-white font-bold shadow-md group-hover:scale-110 transition duration-300">
-              <img src="/images/IMG-20261020-WA0123.jpg" alt="Flourish Foundation Logo" className="w-10 h-10 object-cover rounded-full" />
+          <div className="flex items-center space-x-3 group cursor-pointer" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+            <div className="w-10 h-10 rounded-full overflow-hidden bg-teal-600 flex items-center justify-center text-white font-bold shadow-md group-hover:scale-110 transition duration-300">
+              <img src="/images/IMG-20261020-WA0123.jpg" alt="Florish Foundation Logo" className="w-10 h-10 object-cover rounded-full" />
+            </div>
+            <span className="text-xl font-black text-gray-900 tracking-tight">Florish<span className="text-teal-600">.</span></span>
           </div>
-          <span className="text-xl font-black text-gray-900 tracking-tight">Florish<span className="text-teal-600">.</span></span>
-      </div>
 
-      <nav className="hidden lg:flex items-center space-x-8 text-sm font-semibold text-gray-600">
-          <a href="#about" className="hover:text-teal-600 transition">About</a>
-          <a href="#mission" className="hover:text-teal-600 transition">Mission</a>
-          <a href="#programs" className="hover:text-teal-600 transition">Programs</a>
-          <a href="#impact" className="hover:text-teal-600 transition">Impact</a>
-          <a href="#stories" className="hover:text-teal-600 transition">Stories</a>
-          <a href="#get-involved" className="hover:text-teal-600 transition">Get Involved</a>
-          <a href="#faq" className="hover:text-teal-600 transition">FAQ</a>
-      </nav>
+          <nav className="hidden lg:flex items-center space-x-8 text-sm font-semibold text-gray-600">
+             <a href="#about" className="hover:text-teal-600 transition">About</a>
+             <a href="#mission" className="hover:text-teal-600 transition">Mission</a>
+             <a href="#programs" className="hover:text-teal-600 transition">Programs</a>
+             <a href="#impact" className="hover:text-teal-600 transition">Impact</a>
+             <a href="#stories" className="hover:text-teal-600 transition">Stories</a>
+             <a href="#get-involved" className="hover:text-teal-600 transition">Get Involved</a>
+             <a href="#faq" className="hover:text-teal-600 transition">FAQ</a>
+          </nav>
 
-      <div className="flex items-center space-x-4">
-          <button onClick={openDonateModal} className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-2.5 rounded-full text-sm font-bold shadow-lg shadow-teal-600/30 hover:scale-105 transition duration-300">
-              Donate Now
-          </button>
-      </div>
-  </div>
-</header>
+          <div className="flex items-center space-x-4">
+             <button onClick={openDonateModal} className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-2.5 rounded-full text-sm font-bold shadow-lg shadow-teal-600/30 hover:scale-105 transition duration-300">
+                Donate Now
+             </button>
+          </div>
+        </div>
+      </header>
 
       {/* Hero Section */}
       <section className="pt-16 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center relative">
-        <div className="inline-flex items-center space-x-2 bg-teal-50 text-teal-700 px-4 py-1.5 rounded-full text-xs font-semibold mb-6 border border-teal-100 scroll-animate">
+        <div className="mt-10 inline-flex items-center space-x-2 bg-teal-50 text-teal-700 px-4 py-1.5 rounded-full text-xs font-semibold mb-6 border border-teal-100 scroll-animate">
             <i className="fa-regular fa-heart text-teal-600 animate-pulse"></i>
-            <span>Empowering African Women & Youths</span>
+            <span>Creating Opportunities, Changing Lives</span>
         </div>
 
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black text-gray-900 tracking-tight max-w-4xl mx-auto leading-none mb-6 scroll-animate">
-            Empowering Women, <br/><span className="text-teal-600">Inspiring Youths</span> <span className="text-amber-600">Across Africa</span>
+            Creating Pathways for <br/><span className="text-teal-600">Youth & Women Empowerment</span> <span className="text-amber-600">Across Africa</span>
         </h1>
 
         <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto mb-8 font-normal leading-relaxed scroll-animate">
-            Tackling critical challenges such as gender inequality, limited education, and healthcare barriers. We provide African women and youths with the tools, skills, and opportunities to build sustainable futures.
+            Equipping young people and women with the skills, mentorship, and opportunities needed to thrive, lead productive lives, and drive sustainable community transformation.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 scroll-animate">
@@ -167,15 +167,15 @@ export default function Home() {
             </div>
             <div className="transform hover:scale-105 transition duration-300">
                 <h3 className="text-3xl sm:text-4xl font-extrabold text-teal-600 counter" data-target="120" data-suffix="+">0</h3>
-                <p className="text-xs sm:text-sm text-gray-500 font-medium mt-1">Communities</p>
+                <p className="text-xs sm:text-sm text-gray-500 font-medium mt-1">Communities Impacted</p>
             </div>
             <div className="transform hover:scale-105 transition duration-300">
                 <h3 className="text-3xl sm:text-4xl font-extrabold text-teal-600 counter" data-target="250" data-suffix="+">0</h3>
-                <p className="text-xs sm:text-sm text-gray-500 font-medium mt-1">Volunteers</p>
+                <p className="text-xs sm:text-sm text-gray-500 font-medium mt-1">Volunteers & Mentors</p>
             </div>
             <div className="transform hover:scale-105 transition duration-300">
                 <h3 className="text-3xl sm:text-4xl font-extrabold text-teal-600 counter" data-target="85" data-suffix="+">0</h3>
-                <p className="text-xs sm:text-sm text-gray-500 font-medium mt-1">Projects Funded</p>
+                <p className="text-xs sm:text-sm text-gray-500 font-medium mt-1">Programmes Delivered</p>
             </div>
         </div>
 
@@ -183,22 +183,22 @@ export default function Home() {
         <div className="max-w-4xl mx-auto rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-white hover-lift scroll-animate relative">
             <div id="hero-slider" className="flex transition-transform duration-700 ease-in-out w-full">
                 <div className="w-full flex-shrink-0">
-                    <img src="/images/IMG-20261021-WA0054.jpg" alt="Flourish Foundation Community Outreach" className="w-full h-[400px] sm:h-[500px] object-cover" />
+                    <img src="/images/IMG-20261021-WA0054.jpg" alt="Florish Foundation Community Outreach" className="w-full h-[400px] sm:h-[500px] object-cover" />
                 </div>
                 <div className="w-full flex-shrink-0">
-                    <img src="/images/IMG-20261021-WA0054.jpg" alt="Flourish Foundation Speaker Event" className="w-full h-[400px] sm:h-[500px] object-cover" />
+                    <img src="/images/IMG-20261021-WA0054.jpg" alt="Florish Foundation Speaker Event" className="w-full h-[400px] sm:h-[500px] object-cover" />
                 </div>
                 <div className="w-full flex-shrink-0">
-                    <img src="/images/IMG-20261021-WA0123.jpg" alt="Flourish Foundation Students in Class" className="w-full h-[400px] sm:h-[500px] object-cover" />
+                    <img src="/images/IMG-20261021-WA0123.jpg" alt="Florish Foundation Students in Class" className="w-full h-[400px] sm:h-[500px] object-cover" />
                 </div>
                 <div className="w-full flex-shrink-0">
-                    <img src="/images/IMG-20261021-WA0063.jpg" alt="Flourish Foundation Team Members" className="w-full h-[400px] sm:h-[500px] object-cover" />
+                    <img src="/images/IMG-20261021-WA0063.jpg" alt="Florish Foundation Team Members" className="w-full h-[400px] sm:h-[500px] object-cover" />
                 </div>
                 <div className="w-full flex-shrink-0">
-                    <img src="/images/IMG-20261021-WA0070.jpg" alt="Flourish Foundation International Women's Day" className="w-full h-[400px] sm:h-[500px] object-cover" />
+                    <img src="/images/IMG-20261021-WA0070.jpg" alt="Florish Foundation International Women's Day" className="w-full h-[400px] sm:h-[500px] object-cover" />
                 </div>
                 <div className="w-full flex-shrink-0">
-                    <img src="/images/IMG-20261021-WA0065.jpg" alt="Flourish Foundation Health Campaign" className="w-full h-[400px] sm:h-[500px] object-cover" />
+                    <img src="/images/IMG-20261021-WA0065.jpg" alt="Florish Foundation Health Campaign" className="w-full h-[400px] sm:h-[500px] object-cover" />
                 </div>
             </div>
         </div>
@@ -210,41 +210,41 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 <div className="space-y-6 scroll-left">
                   <span className="bg-teal-50 text-teal-700 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider border border-teal-100">Our Mission</span>
-                  <h2 className="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">Championing African Women & Youths</h2>
+                  <h2 className="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">People-Centered Empowerment as Our Foundation</h2>
                   <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-                      At Flourish Foundation, we recognize the systemic challenges—such as gender inequality, economic exclusion, and limited healthcare access—facing women and youths across Africa. We bridge these gaps by providing grassroots programs and targeted advocacy that uplift communities from within.
+                      At Florish Foundation for Women and Youths, we empower youth, women, and communities through capacity building, advocacy, social innovation, and strategic partnerships that promote inclusive development and sustainable livelihoods.
                   </p>
                   <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-                      By combining strategic empowerment, skills training, and inclusive leadership initiatives, we ensure that women and youths are equipped to overcome barriers and become the architects of their own sustainable futures.
+                      We believe that when people are equipped with knowledge, skills, opportunities, and supportive networks, they become catalysts for community transformation and national development. Guided by our motto, <em>&ldquo;Creating Opportunities, Changing Lives,&rdquo;</em> we turn potential into progress.
                   </p>
                   <div className="space-y-4 pt-2">
                       <div className="flex items-start space-x-4 p-3 rounded-xl hover:bg-teal-50/50 transition duration-300">
-                          <div className="w-10 h-10 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center flex-shrink-0">
+                          <div className="w-10 h-10 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center flex-shrink-0 text-lg">
                               <i className="fa-solid fa-graduation-cap"></i>
                           </div>
                           <div>
-                              <h4 className="font-bold text-gray-900 text-sm">Youth Skills & Education</h4>
-                              <p className="text-xs text-gray-500 mt-0.5">Equipping African youths with vital education, leadership training, and vocational skills for a self-reliant tomorrow.</p>
+                              <h4 className="font-bold text-gray-900 text-sm">Youth & Corps Capacity Building</h4>
+                              <p className="text-xs text-gray-500 mt-0.5">Equipping young people and NYSC members with employability, digital skills, leadership, and entrepreneurship mindsets.</p>
                           </div>
                       </div>
 
                       <div className="flex items-start space-x-4 p-3 rounded-xl hover:bg-teal-50/50 transition duration-300">
-                          <div className="w-10 h-10 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center flex-shrink-0">
+                          <div className="w-10 h-10 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center flex-shrink-0 text-lg">
+                              <i className="fa-solid fa-person-dress"></i>
+                          </div>
+                          <div>
+                              <h4 className="font-bold text-gray-900 text-sm">Women & Girl Advancement</h4>
+                              <p className="text-xs text-gray-500 mt-0.5">Advancing women's leadership, economic empowerment, financial literacy, and girls' life-skills education.</p>
+                          </div>
+                      </div>
+
+                      <div className="flex items-start space-x-4 p-3 rounded-xl hover:bg-teal-50/50 transition duration-300">
+                          <div className="w-10 h-10 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center flex-shrink-0 text-lg">
                               <i className="fa-solid fa-heart-pulse"></i>
                           </div>
                           <div>
-                              <h4 className="font-bold text-gray-900 text-sm">Women's Health & Advocacy</h4>
-                              <p className="text-xs text-gray-500 mt-0.5">Tackling health barriers, promoting gender equality, and driving community-wide awareness campaigns for women.</p>
-                          </div>
-                      </div>
-
-                      <div className="flex items-start space-x-4 p-3 rounded-xl hover:bg-teal-50/50 transition duration-300">
-                          <div className="w-10 h-10 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center flex-shrink-0">
-                              <i className="fa-solid fa-seedling"></i>
-                          </div>
-                          <div>
-                              <h4 className="font-bold text-gray-900 text-sm">Sustainable Growth</h4>
-                              <p className="text-xs text-gray-500 mt-0.5">Fostering long-term economic independence and social resilience across marginalized regions in Africa.</p>
+                              <h4 className="font-bold text-gray-900 text-sm">Health & Social Advocacy</h4>
+                              <p className="text-xs text-gray-500 mt-0.5">Driving medical outreaches, Sickle Cell Disease awareness, public health education, and community well-being.</p>
                           </div>
                       </div>
                   </div>
@@ -254,13 +254,13 @@ export default function Home() {
                     <div className="rounded-3xl overflow-hidden shadow-2xl bg-gray-100 p-2 border border-gray-100 hover-lift relative">
                         <div id="mission-slider" className="flex transition-transform duration-700 ease-in-out w-full">
                             <div className="w-full flex-shrink-0">
-                                <img src="/images/IMG-20261021-WA0068.jpg" alt="Flourish Foundation SDG Graduation" className="w-full h-[480px] object-cover rounded-2xl" />
+                                <img src="/images/IMG-20261021-WA0068.jpg" alt="Florish Foundation SDG Graduation" className="w-full h-[480px] object-cover rounded-2xl" />
                             </div>
                             <div className="w-full flex-shrink-0">
-                                <img src="/images/IMG-20261021-WA0057.jpg" alt="Flourish Foundation Gender Equality Presentation" className="w-full h-[480px] object-cover rounded-2xl" />
+                                <img src="/images/IMG-20261021-WA0057.jpg" alt="Florish Foundation Gender Equality Presentation" className="w-full h-[480px] object-cover rounded-2xl" />
                             </div>
                             <div className="w-full flex-shrink-0">
-                                <img src="/images/IMG-20261021-WA0093.jpg" alt="Flourish Foundation Podium Address" className="w-full h-[480px] object-cover rounded-2xl" />
+                                <img src="/images/IMG-20261021-WA0093.jpg" alt="Florish Foundation Podium Address" className="w-full h-[480px] object-cover rounded-2xl" />
                             </div>
                         </div>
                     </div>
@@ -269,60 +269,79 @@ export default function Home() {
         </div>
       </section>
 
+      
       {/* Programs Section */}
       <section id="programs" className="py-24 bg-gray-50/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto mb-16 scroll-animate">
-                <span className="bg-teal-50 text-teal-700 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider border border-teal-100">Programs</span>
-                <h2 className="text-3xl sm:text-4xl font-black text-gray-900 mt-3">How We Help</h2>
-                <p className="text-gray-600 text-sm mt-2">Our four flagship programs address the critical challenges faced by women and youths across underserved African communities.</p>
+                <span className="bg-teal-50 text-teal-700 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider border border-teal-100">Strategic Pillars</span>
+                <h2 className="text-3xl sm:text-4xl font-black text-gray-900 mt-3">What We Do</h2>
+                <p className="text-gray-600 text-sm mt-2">Florish Foundation delivers its programmes through three strategic pillars designed to drive sustainable empowerment and community transformation.</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover-lift scroll-animate space-y-4">
-                    <div className="w-12 h-12 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center text-xl">
-                        <i className="fa-solid fa-graduation-cap"></i>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                {/* Pillar 1: Youth & Corps Capacity Building */}
+                <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover-lift scroll-animate flex flex-col justify-between space-y-6">
+                    <div className="space-y-4">
+                        <div className="w-12 h-12 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center text-xl">
+                            <i className="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h3 className="text-xl font-bold text-gray-900">Youth & Corps Capacity Building</h3>
+                        <p className="text-gray-600 text-sm leading-relaxed">
+                            Equipping young people and NYSC members with digital skills, entrepreneurship, leadership, career readiness, and social innovation to transform them into job creators.
+                        </p>
+                        <ul className="text-xs text-gray-500 space-y-1.5 pt-2 list-disc list-inside">
+                            <li>Digital & technology skills training</li>
+                            <li>Entrepreneurship & innovation</li>
+                            <li>Capacity building for Corps members</li>
+                        </ul>
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900">Youth Skills & Education</h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">Providing vocational training, digital skills, and educational support to equip African youths for self-reliance and modern career opportunities.</p>
                     <button onClick={openDonateModal} className="text-teal-600 font-bold text-sm inline-flex items-center space-x-1 hover:translate-x-2 transition duration-300">
-                        <span>Support Program</span>
+                        <span>Support Pillar</span>
                         <i className="fa-solid fa-arrow-right text-xs"></i>
                     </button>
                 </div>
 
-                <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover-lift scroll-animate space-y-4">
-                    <div className="w-12 h-12 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center text-xl">
-                        <i className="fa-solid fa-heart-pulse"></i>
+                {/* Pillar 2: Women & Girl Advancement */}
+                <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover-lift scroll-animate flex flex-col justify-between space-y-6">
+                    <div className="space-y-4">
+                        <div className="w-12 h-12 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center text-xl">
+                            <i className="fa-solid fa-person-dress"></i>
+                        </div>
+                        <h3 className="text-xl font-bold text-gray-900">Women & Girl Advancement</h3>
+                        <p className="text-gray-600 text-sm leading-relaxed">
+                            Supporting women and girls to build confidence, gain financial literacy, acquire economic skills, and step into leadership roles for resilient families and communities.
+                        </p>
+                        <ul className="text-xs text-gray-500 space-y-1.5 pt-2 list-disc list-inside">
+                            <li>Economic empowerment & training</li>
+                            <li>Financial literacy & wealth building</li>
+                            <li>Girls' education & life skills</li>
+                        </ul>
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900">Women's Health & Advocacy</h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">Tackling healthcare barriers, promoting maternal and reproductive health awareness, and driving gender equality initiatives across local communities.</p>
                     <button onClick={openDonateModal} className="text-teal-600 font-bold text-sm inline-flex items-center space-x-1 hover:translate-x-2 transition duration-300">
-                        <span>Support Program</span>
+                        <span>Support Pillar</span>
                         <i className="fa-solid fa-arrow-right text-xs"></i>
                     </button>
                 </div>
 
-                <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover-lift scroll-animate space-y-4">
-                    <div className="w-12 h-12 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center text-xl">
-                        <i className="fa-solid fa-chart-line"></i>
+                {/* Pillar 3: Health & Social Advocacy */}
+                <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover-lift scroll-animate flex flex-col justify-between space-y-6">
+                    <div className="space-y-4">
+                        <div className="w-12 h-12 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center text-xl">
+                            <i className="fa-solid fa-heart-pulse"></i>
+                        </div>
+                        <h3 className="text-xl font-bold text-gray-900">Health & Social Advocacy</h3>
+                        <p className="text-gray-600 text-sm leading-relaxed">
+                            Engaging in community-based public health education, medical outreach, Sickle Cell Disease awareness, and mental health advocacy to promote healthy communities.
+                        </p>
+                        <ul className="text-xs text-gray-500 space-y-1.5 pt-2 list-disc list-inside">
+                            <li>Community medical outreaches</li>
+                            <li>Sickle Cell Disease awareness</li>
+                            <li>Mental health & public health advocacy</li>
+                        </ul>
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900">Economic Empowerment</h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">Offering financial literacy, micro-grants, and entrepreneurship cooperatives to help African women build independent livelihoods and break poverty cycles.</p>
                     <button onClick={openDonateModal} className="text-teal-600 font-bold text-sm inline-flex items-center space-x-1 hover:translate-x-2 transition duration-300">
-                        <span>Support Program</span>
-                        <i className="fa-solid fa-arrow-right text-xs"></i>
-                    </button>
-                </div>
-
-                <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 hover-lift scroll-animate space-y-4">
-                    <div className="w-12 h-12 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center text-xl">
-                        <i className="fa-solid fa-seedling"></i>
-                    </div>
-                    <h3 className="text-xl font-bold text-gray-900">Community Sustainability</h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">Partnering with grassroots leaders to implement sustainable farming, clean water access, and long-term community resilience projects.</p>
-                    <button onClick={openDonateModal} className="text-teal-600 font-bold text-sm inline-flex items-center space-x-1 hover:translate-x-2 transition duration-300">
-                        <span>Support Program</span>
+                        <span>Support Pillar</span>
                         <i className="fa-solid fa-arrow-right text-xs"></i>
                     </button>
                 </div>
@@ -478,28 +497,94 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
+     {/* FAQ Section */}
       <section id="faq" className="py-24 bg-gray-50/50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16 scroll-animate">
                 <span className="bg-teal-50 text-teal-700 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider border border-teal-100">FAQ</span>
                 <h2 className="text-3xl sm:text-4xl font-black text-gray-900 mt-3">Frequently Asked Questions</h2>
-                <p className="text-gray-600 text-sm mt-2">Find answers to common questions about our organization, donations, and volunteer opportunities.</p>
+                <p className="text-gray-600 text-sm mt-2">Learn more about Florish Foundation for Women and Youths, our strategic pillars, and how we drive sustainable impact.</p>
             </div>
 
             <div className="space-y-4 scroll-animate">
+                {/* FAQ 1: Who we are & Motto */}
                 <details className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm group cursor-pointer transition">
                     <summary className="flex justify-between items-center font-bold text-sm text-gray-900">
-                        <span>Are my donations tax-deductible?</span>
+                        <span>What is Florish Foundation for Women and Youths?</span>
                         <i className="fa-solid fa-plus text-teal-600 text-sm group-open:rotate-45 transition duration-300"></i>
                     </summary>
-                    <p className="text-xs text-gray-600 mt-3 leading-relaxed">Yes, Flourish Foundation is a registered nonprofit organization. All donations are tax-deductible to the extent allowed by law.</p>
+                    <p className="text-xs text-gray-600 mt-3 leading-relaxed">
+                        Florish Foundation is a development-driven, impact-focused organization committed to advancing opportunities for young people, women, and underserved communities. Guided by our motto, <strong>&ldquo;Creating Opportunities, Changing Lives,&rdquo;</strong> we focus on capacity building, mentorship, advocacy, and social innovation.
+                    </p>
                 </details>
+
+                {/* FAQ 2: The 3 Core Pillars */}
                 <details className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm group cursor-pointer transition">
                     <summary className="flex justify-between items-center font-bold text-sm text-gray-900">
-                        <span>How are funds allocated?</span>
+                        <span>What are the foundation's strategic focus areas?</span>
                         <i className="fa-solid fa-plus text-teal-600 text-sm group-open:rotate-45 transition duration-300"></i>
                     </summary>
-                    <p className="text-xs text-gray-600 mt-3 leading-relaxed">88% of all donations go directly to field programs and community empowerment initiatives.</p>
+                    <p className="text-xs text-gray-600 mt-3 leading-relaxed">
+                        We deliver our impact through three core pillars: 
+                        <strong> 1) Youth & Corps Capacity Building</strong> (digital skills, leadership, NYSC corps member development), 
+                        <strong> 2) Women & Girl Advancement</strong> (economic empowerment, leadership, financial literacy), and 
+                        <strong> 3) Health & Social Advocacy</strong> (community medical outreaches, Sickle Cell Disease campaigns, and mental health awareness).
+                    </p>
+                </details>
+
+                {/* FAQ 3: NYSC / Corps Members Focus */}
+                <details className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm group cursor-pointer transition">
+                    <summary className="flex justify-between items-center font-bold text-sm text-gray-900">
+                        <span>How do you support members of the National Youth Service Corps (NYSC)?</span>
+                        <i className="fa-solid fa-plus text-teal-600 text-sm group-open:rotate-45 transition duration-300"></i>
+                    </summary>
+                    <p className="text-xs text-gray-600 mt-3 leading-relaxed">
+                        Through our Youth and Corps Capacity Building pillar, we provide specialized training during and after national service. We equip corps members with digital technology skills, leadership training, personal development, and entrepreneurship mindsets to transition them from job seekers into job creators.
+                    </p>
+                </details>
+
+                {/* FAQ 4: Health Advocacy (Sickle Cell & Mental Health) */}
+                <details className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm group cursor-pointer transition">
+                    <summary className="flex justify-between items-center font-bold text-sm text-gray-900">
+                        <span>What specific health issues does Florish Foundation focus on?</span>
+                        <i className="fa-solid fa-plus text-teal-600 text-sm group-open:rotate-45 transition duration-300"></i>
+                    </summary>
+                    <p className="text-xs text-gray-600 mt-3 leading-relaxed">
+                        Our health initiatives prioritize grassroots public health education, community medical outreaches, advocacy for Sickle Cell Disease awareness and management, as well as mental health and well-being advocacy across local communities.
+                    </p>
+                </details>
+
+                {/* FAQ 5: Transparency & Funding Allocation */}
+                <details className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm group cursor-pointer transition">
+                    <summary className="flex justify-between items-center font-bold text-sm text-gray-900">
+                        <span>How does Florish Foundation ensure transparency and accountability with donations?</span>
+                        <i className="fa-solid fa-plus text-teal-600 text-sm group-open:rotate-45 transition duration-300"></i>
+                    </summary>
+                    <p className="text-xs text-gray-600 mt-3 leading-relaxed">
+                        Integrity and Accountability are core values at Florish Foundation. We operate with strict financial management and ethical governance, ensuring every contribution is directly directed toward capacity building, health outreach, materials, and sustainable community programs.
+                    </p>
+                </details>
+
+                {/* FAQ 6: Partnerships */}
+                <details className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm group cursor-pointer transition">
+                    <summary className="flex justify-between items-center font-bold text-sm text-gray-900">
+                        <span>How can government agencies, corporations, or development partners collaborate with us?</span>
+                        <i className="fa-solid fa-plus text-teal-600 text-sm group-open:rotate-45 transition duration-300"></i>
+                    </summary>
+                    <p className="text-xs text-gray-600 mt-3 leading-relaxed">
+                        We adopt a multi-stakeholder approach and partner with government institutions, educational organizations, private sector entities, and community leaders. Partners can co-host capacity-building workshops, sponsor youth digital bootcamps, or support health outreach programs.
+                    </p>
+                </details>
+
+                {/* FAQ 7: Volunteering */}
+                <details className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm group cursor-pointer transition">
+                    <summary className="flex justify-between items-center font-bold text-sm text-gray-900">
+                        <span>How can I get involved as a volunteer or mentor?</span>
+                        <i className="fa-solid fa-plus text-teal-600 text-sm group-open:rotate-45 transition duration-300"></i>
+                    </summary>
+                    <p className="text-xs text-gray-600 mt-3 leading-relaxed">
+                        We welcome passionate individuals to join us as field volunteers, skill trainers, medical professionals, or professional mentors. You can apply through our &ldquo;Get Involved&rdquo; section or contact us directly at florishfoundation01@gmail.com.
+                    </p>
                 </details>
             </div>
         </div>
