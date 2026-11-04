@@ -424,35 +424,13 @@ export default function Home() {
                         <div className="flex items-center space-x-3 pt-4 border-t border-gray-100">
                             <div className="w-10 h-10 rounded-full font-bold flex items-center justify-center text-white bg-teal-700">JK</div>
                             <div>
-                                <h5 className="font-bold text-xs text-gray-900">Joseph Kalu</h5>
-                                <p className="text-[10px] text-gray-500">Nigeria, East Africa</p>
+                                <h5 className="font-bold text-xs text-gray-900">Maduforo Vincent C</h5>
+                                <p className="text-[10px] text-gray-500">Nigeria, West Africa</p>
                         </div>
                         </div>
                     </div>
 
-                    <div className="min-w-[320px] sm:min-w-[380px] bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col justify-between space-y-6 hover-lift">
-                        <div className="text-teal-600 text-2xl"><i className="fa-solid fa-quote-left"></i></div>
-                        <p className="text-sm text-gray-600 leading-relaxed">&ldquo;Florish foundation believed in me, pushed me to step out, and gave me the confidence to lead with purpose. What I love most is that the lessons didn't end with my service year.&rdquo;</p>
-                        <div className="flex items-center space-x-3 pt-4 border-t border-gray-100">
-                            <div className="w-10 h-10 rounded-full font-bold flex items-center justify-center text-white bg-teal-700">PS</div>
-                            <div>
-                                <h5 className="font-bold text-xs text-gray-900">Pauline Silva</h5>
-                                <p className="text-[10px] text-gray-500">Edo state, Nigeria</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="min-w-[320px] sm:min-w-[380px] bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col justify-between space-y-6 hover-lift">
-                        <div className="text-teal-600 text-2xl"><i className="fa-solid fa-quote-left"></i></div>
-                        <p className="text-sm text-gray-600 leading-relaxed">&ldquo;My experience with Florish Foundation for Women and Youths started during my NYSC in Okada, Edo State. Looking back now, I can honestly say it has been a beautiful experience. Being an Ambassador of the Foundation has given me the chance to meet different people, learn new things, and experience personal growth. &rdquo;</p>
-                        <div className="flex items-center space-x-3 pt-4 border-t border-gray-100">
-                            <div className="w-10 h-10 rounded-full font-bold flex items-center justify-center text-white bg-teal-700">EM</div>
-                            <div>
-                                <h5 className="font-bold text-xs text-gray-900">Maduforo Vincent C.</h5>
-                                <p className="text-[10px] text-gray-500">Edo state, Nigeria</p>
-                            </div>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
