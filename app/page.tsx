@@ -576,7 +576,7 @@ export default function Home() {
             <div className="space-y-4">
                 <div className="flex items-center space-x-2">
                     <div className="w-10 h-10 rounded-full overflow-hidden bg-teal-600 flex items-center justify-center text-white font-bold shadow-md group-hover:scale-110 transition duration-300">
-                        <img src="/images/IMG-20261020-WA0123.jpg" alt="Flourish Foundation Logo" className="w-10 h-10 object-cover rounded-full" />
+                        <img src="/images/IMG-20261020-WA0123.jpg" alt="Florish Foundation Logo" className="w-10 h-10 object-cover rounded-full" />
                     </div>
                     <span className="text-lg font-black tracking-tight">Florish</span>
                 </div>
@@ -607,7 +607,7 @@ export default function Home() {
             </div>
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-gray-800 pt-6 text-center text-xs text-gray-500">
-            &copy; 2026 Flourish Foundation. All Rights Reserved.
+            &copy; 2026 Florish Foundation. All Rights Reserved.
         </div>
       </footer>
 
