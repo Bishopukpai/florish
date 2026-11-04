@@ -349,7 +349,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Impact Section */}
+      {/* Impact Section
       <section id="impact" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto mb-16 scroll-animate">
@@ -391,7 +391,7 @@ export default function Home() {
                 </div>
             </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Stories / Reviews Section */}
       <section id="stories" className="py-24 bg-gray-50/50 overflow-hidden">
@@ -406,48 +406,50 @@ export default function Home() {
                 <div id="review-track" className="flex gap-8 transition-transform duration-700 ease-in-out">
                     <div className="min-w-[320px] sm:min-w-[380px] bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col justify-between space-y-6 hover-lift">
                         <div className="text-teal-600 text-2xl"><i className="fa-solid fa-quote-left"></i></div>
-                        <p className="text-sm text-gray-600 leading-relaxed">&ldquo;When Flourish built a school in our village, everything changed. My daughter was the first girl in our family to learn to read. Now she dreams of becoming a doctor.&rdquo;</p>
+                        <p className="text-sm text-gray-600 leading-relaxed">&ldquo;FLORISH Foundation for women and youths donated brand new school uniforms to 20 indegent students and gave scholarship to another set of 10 indegent students in our school.&rdquo;</p>
                         <div className="flex items-center space-x-3 pt-4 border-t border-gray-100">
-                            <div className="w-10 h-10 rounded-full font-bold flex items-center justify-center text-white bg-teal-700">AD</div>
+                            <div className="w-10 h-10 rounded-full font-bold flex items-center justify-center text-white bg-teal-700">EG</div>
                             <div>
-                                <h5 className="font-bold text-xs text-gray-900">Amara Diallo</h5>
-                                <p className="text-[10px] text-gray-500">Senegal, West Africa</p>
+                                <h5 className="font-bold text-xs text-gray-900">EKHATOR EGHOSA GREAT, Proprietor</h5>
+                                <p className="text-[10px] text-gray-500">Domain International group of Schools, Evonekha..</p>
                             </div>
                         </div>
                     </div>
 
                     <div className="min-w-[320px] sm:min-w-[380px] bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col justify-between space-y-6 hover-lift">
                         <div className="text-teal-600 text-2xl"><i className="fa-solid fa-quote-left"></i></div>
-                        <p className="text-sm text-gray-600 leading-relaxed">&ldquo;The clean water well transformed our community. Children stopped getting sick, and women no longer walked miles for water, and we could focus on growing our farms.&rdquo;</p>
+                           <p className="text-sm text-gray-600 leading-relaxed">&ldquo;Florish Foundation for Women and Youths didn't just meet me during my service year, they groomed me. From the very start, their guidance, encouragement and consistent support shaped the way I see leadership, service and community impact.
+                            Because of the guidance Florish Foundation for Women and Youths gave me,I discovered that making a difference doesn't need a big title or a big budget, just a willing heart and the right direction.&rdquo;
+                           </p>
                         <div className="flex items-center space-x-3 pt-4 border-t border-gray-100">
                             <div className="w-10 h-10 rounded-full font-bold flex items-center justify-center text-white bg-teal-700">JK</div>
                             <div>
-                                <h5 className="font-bold text-xs text-gray-900">Joseph Kariuki</h5>
-                                <p className="text-[10px] text-gray-500">Kenya, East Africa</p>
-                            </div>
+                                <h5 className="font-bold text-xs text-gray-900">Joseph Kalu</h5>
+                                <p className="text-[10px] text-gray-500">Nigeria, East Africa</p>
+                        </div>
                         </div>
                     </div>
 
                     <div className="min-w-[320px] sm:min-w-[380px] bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col justify-between space-y-6 hover-lift">
                         <div className="text-teal-600 text-2xl"><i className="fa-solid fa-quote-left"></i></div>
-                        <p className="text-sm text-gray-600 leading-relaxed">&ldquo;The microloan program gave me the start I needed. I built a small tailoring business that now employs five women from my village. We are lifting each other up.&rdquo;</p>
+                        <p className="text-sm text-gray-600 leading-relaxed">&ldquo;Florish foundation believed in me, pushed me to step out, and gave me the confidence to lead with purpose. What I love most is that the lessons didn't end with my service year.&rdquo;</p>
                         <div className="flex items-center space-x-3 pt-4 border-t border-gray-100">
                             <div className="w-10 h-10 rounded-full font-bold flex items-center justify-center text-white bg-teal-700">PS</div>
                             <div>
-                                <h5 className="font-bold text-xs text-gray-900">Priya Sharma</h5>
-                                <p className="text-[10px] text-gray-500">Rajasthan, India</p>
+                                <h5 className="font-bold text-xs text-gray-900">Pauline Silva</h5>
+                                <p className="text-[10px] text-gray-500">Edo state, Nigeria</p>
                             </div>
                         </div>
                     </div>
 
                     <div className="min-w-[320px] sm:min-w-[380px] bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col justify-between space-y-6 hover-lift">
                         <div className="text-teal-600 text-2xl"><i className="fa-solid fa-quote-left"></i></div>
-                        <p className="text-sm text-gray-600 leading-relaxed">&ldquo;The medical outreach program saved countless lives during the malaria outbreak. I am forever grateful for the selfless volunteers of Flourish.&rdquo;</p>
+                        <p className="text-sm text-gray-600 leading-relaxed">&ldquo;My experience with Florish Foundation for Women and Youths started during my NYSC in Okada, Edo State. Looking back now, I can honestly say it has been a beautiful experience. Being an Ambassador of the Foundation has given me the chance to meet different people, learn new things, and experience personal growth. &rdquo;</p>
                         <div className="flex items-center space-x-3 pt-4 border-t border-gray-100">
                             <div className="w-10 h-10 rounded-full font-bold flex items-center justify-center text-white bg-teal-700">EM</div>
                             <div>
-                                <h5 className="font-bold text-xs text-gray-900">Emmanuel Mensah</h5>
-                                <p className="text-[10px] text-gray-500">Accra, Ghana</p>
+                                <h5 className="font-bold text-xs text-gray-900">Maduforo Vincent C.</h5>
+                                <p className="text-[10px] text-gray-500">Edo state, Nigeria</p>
                             </div>
                         </div>
                     </div>
