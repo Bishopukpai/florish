@@ -595,6 +595,7 @@ export default function Home() {
                 <h4 className="font-bold text-sm uppercase tracking-wider mb-4 text-teal-400">Contact Info</h4>
                 <p className="text-gray-400 text-xs">29 Unity Estate, Iriebe, Port Harcourt, Rivers State</p>
                 <p className="text-gray-400 text-xs">+234 (0) 90 778 044 47</p>
+                <p className="text-gray-400 text-xs">+234 (0) 80 334 012 67</p>
                 <p className="text-gray-400 text-xs">florishfoundation01@gmail.com</p>
             </div>
             <div>
