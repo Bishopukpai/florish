@@ -603,7 +603,7 @@ export default function Home() {
                 <p className="text-xs text-gray-400 mb-2">View verified foundation donations ledger.</p>
                 <div className="flex space-x-2">
                     <button onClick={openAdminLoginModal} className="bg-teal-600 hover:bg-teal-700 text-xs px-3 py-2 rounded-lg font-bold transition">View Donations Log</button>
-                    <button onClick={openAdminSignupModal} className="bg-gray-700 hover:bg-gray-600 text-xs px-3 py-2 rounded-lg font-bold transition">Admin Signup</button>
+                    {/* <button onClick={openAdminSignupModal} className="bg-gray-700 hover:bg-gray-600 text-xs px-3 py-2 rounded-lg font-bold transition">Admin Signup</button> */}
                 </div>
             </div>
         </div>
