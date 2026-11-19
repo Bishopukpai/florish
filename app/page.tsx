@@ -630,13 +630,13 @@ export default function Home() {
                     <p className="text-xs text-gray-500 mb-4 font-medium">Safe & Secure: Transfer directly to our official foundation bank accounts.</p>
                     
                     <div className="grid grid-cols-3 gap-3 mb-4">
-                        <button type="button" onClick={(e) => setAmount(25, e.currentTarget)} className="amount-btn border-2 border-teal-600 text-teal-700 font-bold py-3 rounded-xl text-sm transition bg-teal-50">$25</button>
-                        <button type="button" onClick={(e) => setAmount(50, e.currentTarget)} className="amount-btn border-2 border-gray-200 hover:border-teal-600 text-gray-700 font-bold py-3 rounded-xl text-sm transition">$50</button>
-                        <button type="button" onClick={(e) => setAmount(100, e.currentTarget)} className="amount-btn border-2 border-gray-200 hover:border-teal-600 text-gray-700 font-bold py-3 rounded-xl text-sm transition">$100</button>
+                        <button type="button" onClick={(e) => setAmount(5000, e.currentTarget)} className="amount-btn border-2 border-teal-600 text-teal-700 font-bold py-3 rounded-xl text-sm transition bg-teal-50"> ₦5000</button>
+                        <button type="button" onClick={(e) => setAmount(10000, e.currentTarget)} className="amount-btn border-2 border-gray-200 hover:border-teal-600 text-gray-700 font-bold py-3 rounded-xl text-sm transition"> ₦10000</button>
+                        <button type="button" onClick={(e) => setAmount(15000, e.currentTarget)} className="amount-btn border-2 border-gray-200 hover:border-teal-600 text-gray-700 font-bold py-3 rounded-xl text-sm transition"> ₦15000</button>
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-xs font-bold text-gray-700 mb-1">Donation Amount ($)</label>
+                        <label className="block text-xs font-bold text-gray-700 mb-1">Donation Amount (₦)</label>
                         <input type="number" id="custom-amount" defaultValue="25" min="1" className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-teal-600 font-bold text-sm" />
                     </div>
 
@@ -813,7 +813,7 @@ async function confirmTransfer() {
         await fetch('/api/donations', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ ref: refCode, name, amount: '$' + amount, status: 'Pending Verification' })
+            body: JSON.stringify({ ref: refCode, name, amount: '₦' + amount, status: 'Pending Verification' })
         });
     } catch (err) { console.error(err); }
     const refEl = document.getElementById('tracking-ref-code');
